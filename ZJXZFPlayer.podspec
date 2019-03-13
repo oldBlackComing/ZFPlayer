@@ -9,10 +9,12 @@
 Pod::Spec.new do |s|
     s.name         = 'ZJXZFPlayer'
     s.version      = '2.1.6'
-    s.summary      = 'A good player made by renzifeng'
-    s.homepage     = 'https://github.com/renzifeng/ZFPlayer'
-    s.license      = 'MIT'
-    s.authors      = { 'renzifeng' => 'zifeng1300@gmail.com' }
+    s.summary          = 'A good player made by renzifeng'
+    s.homepage         = 'https://github.com/oldBlackComing/ZFPlayer'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'zhoujiaxing' => '884548958@qq.com' }
+    s.source           = { :git => 'https://github.com/oldBlackComing/ZFPlayer.git', :tag => s.version.to_s }
+    s.social_media_url = 'http://weibo.com/zifeng1300'
     #s.platform     = :ios, '7.0'
     s.ios.deployment_target = '7.0'
     s.source       = { :git => 'https://github.com/renzifeng/ZFPlayer.git', :tag => s.version.to_s }
