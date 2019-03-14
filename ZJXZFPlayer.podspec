@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.social_media_url = 'http://weibo.com/zifeng1300'
     #s.platform     = :ios, '7.0'
     s.ios.deployment_target = '7.0'
-    s.source       = { :git => 'https://github.com/renzifeng/ZFPlayer.git', :tag => s.version.to_s }
+    #s.source       = { :git => 'https://github.com/renzifeng/ZFPlayer.git', :tag => s.version.to_s }
     s.source_files = 'ZFPlayer/**/*.{h,m}'
     s.resource     = 'ZFPlayer/ZFPlayer.bundle'
     s.framework    = 'UIKit','MediaPlayer'
